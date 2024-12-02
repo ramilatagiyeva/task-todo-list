@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.todo-container {
+    margin: 20px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todo-item.done {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.button-group button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
